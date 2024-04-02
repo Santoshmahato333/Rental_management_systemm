@@ -1,0 +1,156 @@
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 60px; 
+    z-index: 1000; 
+}
+
+.logo {
+    font-size: 28px; 
+    font-weight: bold;
+    margin-left: 20px; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px; 
+}
+
+nav li {
+    margin-right: 20px; 
+    padding: 10px 20px;
+}
+
+nav li:last-child {
+    margin-right: 0; 
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px; 
+    border-radius: 8px;
+    border: 2px solid transparent; 
+    transition: border-color 0.3s ease; 
+}
+
+nav li a:hover {
+    color: #000;
+    border-color: #fff; 
+}
+
+#login,
+#signup {
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px; 
+    margin-right: 20px; 
+}
+
+
+
+section {
+    padding: 2rem;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    background-color: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    display: none;
+}
+ h1{
+    position: relative;
+    margin-top: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 500px;
+}
+
+.property-management {
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr); 
+    grid-gap: 1rem; 
+    margin-bottom: 2rem;
+}
+
+.property-list {
+    background-color: #f0f0f0;
+    padding: 1.5rem;
+    text-align: center;
+}  
+
+.property-list img{
+    height: 30vh;
+}
+
+/* .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+} */
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin: 0 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+footer {
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+}
